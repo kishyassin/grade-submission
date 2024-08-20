@@ -14,6 +14,7 @@
       <form method="post" th:object="${grade}" th:action="@{/handleSubmit}"> 
         <p th:errors="*{name}" style="color: red;"></p>
         <input type="text" placeholder="Name" th:field="*{name}">
+        <p th:errors="*{score}" style="color: red;"></p>
         <input type="text" placeholder="Score" th:field="*{score}"> 
         <p th:errors="*{subject}" style="color: red;"></p>
         <input type="text" placeholder="Subject" th:field="*{subject}">

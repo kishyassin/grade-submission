@@ -4,12 +4,14 @@ import java.util.UUID;
 
 import javax.validation.constraints.NotBlank;
 
+
 public class Grade {
     @NotBlank(message = "Sorry! name can not be blank")
     private String name;
 
     @NotBlank(message = "Sorry! subject can not be blank")
     private String subject;
+    @Score
     private String score;
     private String id;
 
