@@ -1,3 +1,3 @@
-### grade-submission app
+### grade-submission
 -- Spring Boot [JAVA] --
-## field Validation example
+Practice main SPRING BOOT concepts here
