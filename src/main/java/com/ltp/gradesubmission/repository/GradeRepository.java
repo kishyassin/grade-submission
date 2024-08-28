@@ -5,8 +5,11 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import org.springframework.stereotype.Component;
+
 import com.ltp.gradesubmission.Grade;
 
+@Component
 public class GradeRepository {
     private List<Grade> studentGrades = new ArrayList<>();
 
