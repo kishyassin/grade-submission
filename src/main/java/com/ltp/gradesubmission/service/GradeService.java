@@ -9,7 +9,7 @@ import com.ltp.gradesubmission.Constants;
 import com.ltp.gradesubmission.Grade;
 import com.ltp.gradesubmission.repository.GradeRepository;
 
-@Service
+@Service 
 public class GradeService {
 
     @Autowired

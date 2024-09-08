@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.ltp.gradesubmission.Grade;
 import com.ltp.gradesubmission.service.GradeService;
 
-@Controller
+@Controller 
 public class GradeController {
 
     @Autowired
